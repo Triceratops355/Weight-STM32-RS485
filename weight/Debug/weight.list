@@ -352,7 +352,6 @@ int main(void)
  80002d6:	885b      	ldrh	r3, [r3, #2]
  80002d8:	2b00      	cmp	r3, #0
  80002da:	d02a      	beq.n	8000332 <main+0xaa>
-	  		//init first hx711
 	  		hx711_init(&hx711, GPIOA, DOUT1_Pin, GPIOA, PD_SCK1_Pin);
  80002dc:	1d38      	adds	r0, r7, #4
  80002de:	2310      	movs	r3, #16
@@ -373,7 +372,6 @@ int main(void)
  80002fc:	4618      	mov	r0, r3
  80002fe:	f7ff ff4a 	bl	8000196 <hx711_value>
  8000302:	62f8      	str	r0, [r7, #44]	; 0x2c
-	  		//init second hx711
 	  		hx711_init(&hx711, GPIOA, DOUT2_Pin, GPIOA, PD_SCK2_Pin);
  8000304:	1d38      	adds	r0, r7, #4
  8000306:	2340      	movs	r3, #64	; 0x40
@@ -394,13 +392,11 @@ int main(void)
  8000324:	4618      	mov	r0, r3
  8000326:	f7ff ff36 	bl	8000196 <hx711_value>
  800032a:	62b8      	str	r0, [r7, #40]	; 0x28
-//
 	  		usRegHoldingBuf[1] = 0;
  800032c:	4b2d      	ldr	r3, [pc, #180]	; (80003e4 <main+0x15c>)
  800032e:	2200      	movs	r2, #0
  8000330:	805a      	strh	r2, [r3, #2]
 	  		}
-//
 	  	if (usRegHoldingBuf[0]) {
  8000332:	4b2c      	ldr	r3, [pc, #176]	; (80003e4 <main+0x15c>)
  8000334:	881b      	ldrh	r3, [r3, #0]

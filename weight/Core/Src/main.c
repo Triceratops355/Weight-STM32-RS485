@@ -126,18 +126,14 @@ int main(void)
   {
 	  (void)eMBPoll();
 	  	if (usRegHoldingBuf[1]) {
-	  		//init first hx711
 	  		hx711_init(&hx711, GPIOA, DOUT1_Pin, GPIOA, PD_SCK1_Pin);
 	  		zero_first_weightA = hx711_value(&hx711, 1);
 	  		zero_first_weightB = hx711_value(&hx711, 2);
-	  		//init second hx711
 	  		hx711_init(&hx711, GPIOA, DOUT2_Pin, GPIOA, PD_SCK2_Pin);
 	  		zero_second_weightA = hx711_value(&hx711, 1);
 	  		zero_second_weightB = hx711_value(&hx711, 2);
-//
 	  		usRegHoldingBuf[1] = 0;
 	  		}
-//
 	  	if (usRegHoldingBuf[0]) {
 	  		hx711_init(&hx711, GPIOA, DOUT1_Pin, GPIOA, PD_SCK1_Pin);
 	  		first_weightA  = hx711_value(&hx711, 1) - zero_first_weightA;
@@ -146,7 +142,7 @@ int main(void)
 	  		second_weightA = hx711_value(&hx711, 1) - zero_second_weightA;
 	  		second_weightB = hx711_value(&hx711, 2) - zero_second_weightB;
 
-	  		weight = (first_weightA + first_weightB + second_weightA + second_weightB) / 4 / 100;
+	  		weight = (first_weightA + first_weightB + second_weightA + second_weightB) / 100;
 
 	  		usRegInputBuf[0] = weight >> 16;
 	  		usRegInputBuf[1] = weight & 0xFFFF;
