@@ -1,0 +1,8 @@
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/mbrtu.c:80:1:eMBRTUInit	4
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/mbrtu.c:125:1:eMBRTUStart	1
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/mbrtu.c:141:1:eMBRTUStop	1
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/mbrtu.c:150:1:eMBRTUReceive	3
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/mbrtu.c:186:1:eMBRTUSend	2
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/mbrtu.c:224:1:xMBRTUReceiveFSM	6
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/mbrtu.c:284:1:xMBRTUTransmitFSM	4
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/mbrtu.c:322:1:xMBRTUTimerT35Expired	7

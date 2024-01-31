@@ -1,0 +1,2 @@
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/port.c:12:6:critical_enter	1
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/port.c:18:6:critical_exit	2

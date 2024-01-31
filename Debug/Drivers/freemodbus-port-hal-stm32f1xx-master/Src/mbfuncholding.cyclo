@@ -1,0 +1,4 @@
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/mbfuncholding.c:77:1:eMBFuncWriteHoldingRegister	3
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/mbfuncholding.c:110:1:eMBFuncWriteMultipleHoldingRegister	6
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/mbfuncholding.c:170:1:eMBFuncReadHoldingRegister	5
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/mbfuncholding.c:235:1:eMBFuncReadWriteMultipleHoldingRegister	10

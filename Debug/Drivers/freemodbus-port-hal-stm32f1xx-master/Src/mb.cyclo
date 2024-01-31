@@ -1,0 +1,6 @@
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/mb.c:130:1:eMBInit	7
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/mb.c:226:1:eMBRegisterCB	10
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/mb.c:273:1:eMBClose	3
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/mb.c:292:1:eMBEnable	2
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/mb.c:310:1:eMBDisable	3
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/mb.c:332:1:eMBPoll	13

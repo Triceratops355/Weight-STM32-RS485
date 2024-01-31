@@ -1,0 +1,7 @@
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/portserial.c:42:1:vMBPortSerialEnable	16	static
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/portserial.c:63:1:Modbus_UART_Init	24	static
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/portserial.c:71:1:xMBPortSerialInit	16	static
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/portserial.c:82:1:xMBPortSerialPutByte	16	static
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/portserial.c:93:1:xMBPortSerialGetByte	16	static
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/portserial.c:109:6:HAL_UART_TxCpltCallback	16	static
+../Drivers/freemodbus-port-hal-stm32f1xx-master/Src/portserial.c:119:6:HAL_UART_RxCpltCallback	16	static
