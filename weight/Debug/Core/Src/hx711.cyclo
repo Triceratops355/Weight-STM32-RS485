@@ -1,0 +1,2 @@
+../Core/Src/hx711.c:12:6:hx711_init	1
+../Core/Src/hx711.c:23:9:hx711_value	6

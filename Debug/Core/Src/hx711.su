@@ -1,2 +1,0 @@
-../Core/Src/hx711.c:12:6:init	24	static
-../Core/Src/hx711.c:23:9:hx711_value	32	static
