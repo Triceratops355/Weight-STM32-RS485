@@ -22,8 +22,8 @@
 typedef struct hx711{
 	GPIO_TypeDef *Data_GPIO; //set GPIOA
 	GPIO_TypeDef *SCK_GPIO; //set GPIOA
-	uint16_t dataPin;
-	uint16_t sckPin;
+	uint16_t dataPin; // Data pin number
+	uint16_t sckPin; // Clock pin number
 	uint8_t gain; // channel A: 1 or 3, channel B: 2
 }HX711;
 
